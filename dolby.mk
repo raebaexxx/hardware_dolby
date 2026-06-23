@@ -75,7 +75,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 # Spatial Audio Proprietary blobs
 PRODUCT_PACKAGES += \
-    libspatialaudio
+    libspatializer \
+    libswspatializer \
+    libswspatializer_ext
 
 # Media (C2)
 PRODUCT_PACKAGES += \
@@ -134,9 +136,11 @@ PRODUCT_PACKAGES += \
     libstagefright_foundation-dolby \
     libdlbvol \
     libhwdap \
-    libswdap \
     libswgamedap \
     libswvqe \
+    libmisoundfx \
+    libshoebox \
+    libspatializerparamstorage \
     vendor.dolby.hardware.dms@2.0-dolby \
     vendor.dolby.hardware.dms@2.0 \
     libcodec2_soft_ac4dec \
